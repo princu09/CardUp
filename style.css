@@ -14,7 +14,7 @@
     body {
         justify-content: center;
         align-items: center;
-        background: url(BG.jpg);
+        background: url(https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -180,7 +180,7 @@
             position: absolute;
             top: 5%;
             left: 50%;
-            font-size: 35px;
+            font-size: 30px;
             -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
         }
@@ -188,7 +188,7 @@
             font-weight: 600;
             letter-spacing: 5px;
             color: #fff;
-            font-size: 8px;
+            font-size: 7px;
             position: absolute;
             top: 8%;
             left: 50%;
