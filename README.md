@@ -76,8 +76,8 @@ Code: Totally Free For Developing -->
 
 CSS File :
 
- ```
- html {
+```
+html {
     scroll-behavior: smooth;
 }
 
@@ -151,11 +151,11 @@ body {
 }
 
 .container .card:hover:nth-child(1) {
-    height: 350px;
+    height: 370px;
 }
 
 .container .card:hover:nth-child(3) {
-    height: 350px;
+    height: 370px;
 }
 
 .container .card .imgBx {
@@ -253,4 +253,27 @@ body {
         border-radius: 4px;
     }
 }
- ```
+
+@media(min-width:400px) {
+    .header h1 {
+        color: #fff;
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        font-size: 35px;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    .header h3 {
+        font-weight: 600;
+        letter-spacing: 5px;
+        color: #fff;
+        font-size: 9px;
+        position: absolute;
+        top: 8%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+}
+```
